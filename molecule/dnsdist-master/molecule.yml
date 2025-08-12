@@ -26,8 +26,8 @@ platforms:
     image: ubuntu:24.04
     dockerfile_tpl: ubuntu-systemd
 
-  - name: debian-11
-    image: debian:11
+  - name: debian-13
+    image: debian:trixie-slim
     dockerfile_tpl: debian-python3
 
   - name: debian-12

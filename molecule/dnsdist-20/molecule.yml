@@ -30,8 +30,8 @@ platforms:
     image: debian:11
     dockerfile_tpl: debian-python3
 
-  - name: debian-12
-    image: debian:12
+  - name: debian-13
+    image: debian:trixie
     dockerfile_tpl: debian-python3
 
   - name: rockylinux-8
